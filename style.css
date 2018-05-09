@@ -1,0 +1,22 @@
+#menu{
+  background-color: yellow;
+  width: 600px;
+  max-height: 0;
+  display: none;
+}
+
+#menu-toggle{
+  display: none;
+}
+
+#menu-toggle:checked + #menu{
+  height: 100px;
+  display: inline;
+}
+
+label{
+  background-color: red;
+}
+#content {
+  background-color: #9acd32;
+}
